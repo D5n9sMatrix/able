@@ -1,0 +1,14 @@
+#!/usr/bin/gbs3
+'https://de.wikibooks.org/wiki/Gambas:_Druckversion:_Beispielprogramme
+'#Zufallsberechnungen_mit_der_Randomfunktion
+
+Dim a As Integer
+Dim t As String
+Dim M As Integer
+Randomize
+For a = 1 To 20000
+ M = Int(2 * Rnd) 
+' Erzeugt einen Wurf zwischen 0 und 1
+ t = t & LTrim$(Str$(M))
+Next
+Print t

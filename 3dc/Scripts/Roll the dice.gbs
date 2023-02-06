@@ -1,0 +1,9 @@
+#!/usr/bin/gbs3
+'https://de.wikibooks.org/wiki/Gambas:_Druckversion:_Beispielprogramme
+'#Zufallsberechnungen_mit_der_Randomfunktion
+
+Dim Wuerfel As Integer
+Randomize
+Wuerfel = Int(Rnd(1, 7)) 
+' Erzeugt einen Wurf zwischen 1 und 6 
+Print "They rolled one ", Wuerfel

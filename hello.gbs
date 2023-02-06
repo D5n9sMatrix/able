@@ -1,0 +1,5 @@
+#!/usr/bin/gbs3
+
+Public Sub Main()
+    Print "Hello World!"
+End 

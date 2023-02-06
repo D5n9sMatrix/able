@@ -1,0 +1,8 @@
+# A Beginner's Guide to Gambas
+
+Choose a directory appropriate for your file system and click the Next>>
+button to proceed to the final dialog screen of the wizard, as shown on the
+following page in Figure 7. This dialog is simply a confirmation screen of the
+choices you have made. The most important thing to remember about this screen
+is that it is the last chance you have to back up and make changes before your
+new project is created.

@@ -1,0 +1,9 @@
+#!/usr/bin/gbs3
+'https://linugambi.blogspot.com/
+
+Use "gb.gui"
+Dim text As String
+
+text = "Text"
+clipboard.copy(text)
+Print clipboard.paste()

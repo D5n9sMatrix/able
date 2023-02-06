@@ -1,0 +1,48 @@
+<h1>A Beginner's Guide to Gambas</h1>
+<p>The Byte data­type can contain values from 0 to 255 and occupies one
+byte of memory when declared. The default value when a Byte data­type is
+declared is 0. If you are certain your values will not exceed 255 then this data­
+type is appropriate for use. If it is possible that the values assigned to this
+variable would exceed 255, then the likely result would be a program crash at run
+time. It is better to use the Short data­type or an Integer data­type for such
+situations. For a Short data­type, values can range from ­32768 to +32767.
+Short data­types occupy two bytes of memory and default to a zero value when
+declared. Integer data­types occupy twice as much memory, taking up four bytes.
+The range of values you can use with the Integer data­type is from
+­2,147,483,684 to +2,147,483,647. This is similar to the LONG data­type used in
+VB. Examples of Short and Integer data­type variable declarations are:</p>
+<p><br/></p>
+<p><code>
+<strong> STATIC PUBLIC <code style="white-space:nowrap;"><FONT COLOR=#0000FF>sSomeShort</font></code> AS <code style="white-space:nowrap;"><FONT COLOR=#e69900>Short</font></code><br/></strong>
+<strong> STATIC PUBLIC <FONT COLOR=#0000FF>iSomeInteger</font> AS <FONT COLOR=#e69900>Integer</font> <br/></strong>
+</code></p>
+ <p><br/></p>
+<p>When integers will not work for your purposes, Gambas provides you with
+the Float data­type. This data­type allows you to use floating point numbers for
+your program. Float data­types are like Double data­types used in C and VB. The
+range of values for float data­type variables is from ­1.79769313486232E308 to
+­4.94065645841247E­324 for negative values and from 4.94065645841247E­324
+to 1.79769313486232E308 for positive values. Float variables occupy eight bytes
+of memory and default to a zero value when declared. A sample declaration for a
+float would be as follows:</p>
+<p><br/></p>
+<p><code>
+<strong> DIM <code style="white-space:nowrap;"><FONT COLOR=#0000FF>fRadius</font></code> AS <code style="white-space:nowrap;"><FONT COLOR=#e69900>Float</font></code></strong>
+</code></p>
+<p><br/></p>
+<p>The last numeric data­type we have in Gambas is the Date data­type. Date
+variables also take up eight bytes of memory. The date portion of the date is
+stored in a four byte integer and the time portion is stored in a four byte integer.
+It is stored as  and is usually
+used with the Gambas built­in Date and Time functions, which we will explain
+about later in this book. The date data­type defaults to a NULL value when
+initialized. Here is how to declare a Date data­type:</p>
+<p><br/></p>
+<p><code>
+<strong> DIM <code style="white-space:nowrap;"><FONT COLOR=#0000FF>ddate</font></code> AS <code style="white-space:nowrap;"><FONT COLOR=#e69900>Date</font></code><br/></strong>
+<strong> DIM <FONT COLOR=#0000FF>dtime</font> AS <FONT COLOR=#e69900>Date</font><br/></strong>
+</code></p>
+<p><br/></p>
+<p>Strings, Variants and Objects are the non­numeric data­types supported in
+Gambas. A String data­type is a series of zero or more characters that are
+treated as a single entity. Strings can contain alphanumeric data. Alphanumeric</p>

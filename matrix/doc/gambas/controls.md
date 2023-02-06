@@ -1,0 +1,15 @@
+# A Beginner's Guide to Gambas
+
+those controls. Such interaction between the user and the GUI is referred to as
+events. The controls are found in the ToolBox window. You can change the
+appearance and behavior of the controls by setting the properties for each control.
+Properties can be seen in the properties window.
+Now, lets take a look at the menus and buttons found at the top of the
+Project Explorer. The menus (see Figures 9 through 12 below) control all the main
+Gambas management tasks. The File menu will allow you to open a project, save
+a project, create a new project, open some Gambas example projects, or quit
+using Gambas. The Project Menu is where program compilation occurs. You can
+also create the program executable, make a source archive, or create an
+installation package. This menu offers you the option of translating your
+program into another language. Finally, you can set Gambas IDE properties from
+this menu.

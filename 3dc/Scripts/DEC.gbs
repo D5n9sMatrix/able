@@ -1,0 +1,7 @@
+#!/usr/bin/gbs3
+' https://de.wikibooks.org/wiki/Gambas:_Rechnen
+
+  Dim X As Integer
+  X = 7
+  Dec X
+  Print X

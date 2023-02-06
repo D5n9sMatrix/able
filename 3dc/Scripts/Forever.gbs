@@ -1,0 +1,11 @@
+#!/usr/bin/gbs3
+'https://linugambi.blogspot.com/
+
+Dim i, j As Integer
+   For i = 1 To 10
+       For j = 1 To 10
+       j = Rnd(j + 1)
+           Print i * j,
+       Next 
+      Print 
+    Next

@@ -1,0 +1,133 @@
+' Gambas class file
+
+'Icon erstellt von https://www.flaticon.com/de/autoren/smashicons
+Private content As String
+
+Public Sub Form_Open()
+  
+  With Skripter
+    .Height = 460
+    .Width = 550
+    .Caption = "Skript"
+    .Background = &HDFF7FF&
+    .Show
+  End With
+  
+  Panel1.Background = Color.Lighter(&H00FFCF3F&)
+  
+  TextEditor1.Text = "#!/usr/bin/gbs3" & gb.NewLine & gb.NewLine
+  TextBox1.Text = ".gbs"
+  ComboBox3.Add("konsole", 0)
+  ComboBox3.Add("xterm", 1)
+  
+End
+
+Public Sub btnSave_Click()
+  
+  Dim datei, sfile As String
+  Dim i As Integer
+  
+  datei = Dialog.Path & "/" & TextBox1.Text
+  File.Save(datei, TextEditor1.Text)
+  
+  ComboBox1.Clear
+  For Each sfile In Dir(Dialog.Path, "*", gb.File).Sort(gb.Ascent)
+    ComboBox1.Add(sfile, i)
+    i = i + 1
+  Next
+  
+Catch
+  If Error Then Message(Error.Text)
+  
+End
+
+Public Sub btnTexter_Click()
+  
+  Dim sfile, nfile As String
+  Dim i As Integer
+  
+  For Each sfile In Dir(Dialog.Path, "*txt", gb.File).Sort(gb.Ascent)
+    Texter.ComboBox1.Add(sfile, i)
+    i = i + 1
+  Next
+  
+  nfile = Dialog.Path & "/" & Replace(TextBox1.Text, ".gbs", ".txt")
+  
+  If Exist(nfile) Then 
+    Texter.TextEditor1.Load(nfile)
+    Texter.TextBox1.Text = File.Name(nfile)
+    Texter.Show
+    Texter.ComboBox1.Current.Text = File.Name(nfile)
+    Texter.TextBox1.Text = File.Name(nfile)
+  Else 
+    Clipboard.Copy(TextEditor1.Text, "text/html")
+    Texter.Show
+    Texter.TextEditor1.Text = Clipboard.Paste()
+    Texter.TextBox1.Text = Replace(TextBox1.Text, ".gbs", ".txt")
+  Endif  
+  
+End
+
+Public Sub btnNew_Click()
+  
+  TextBox1.Clear
+  TextEditor1.Clear
+  TextEditor1.Text = "#!/usr/bin/gbs3" & gb.NewLine & gb.NewLine
+  TextBox1.Text = ".gbs"
+  
+End
+
+Public Sub Form_Close()
+  
+  Me.Close
+  
+End
+
+Public Sub ComboBox1_Click()
+  
+  Dim datei As String
+  
+  datei = Dialog.Path & "/" & ComboBox1.Current.Text
+  
+  content = File.Load(datei)
+  TextEditor1.Clear
+  TextEditor1.Text = content
+  TextBox1.Text = File.Name(datei)
+  
+End
+
+Public Sub btnRun_Click()
+  
+  Dim datei As String
+  
+  datei = Dialog.Path & "/" & TextBox1.Text
+  If ComboBox3.Current.Text = "bash" Then
+    Exec ["bash", "--hold", "-e", "/usr/bin/gbs3", datei]
+    Return
+  Endif 
+  If ComboBox3.Current.Text = "xterm" Then
+    Exec ["xterm", "-hold", "-e", "/usr/bin/gbs3", datei]
+    Return
+  Endif 
+  
+End
+
+Public Sub btnDir_Click()
+  
+  Dim sfile As String
+  Dim i As Integer = 0
+  
+  ComboBox1.Clear
+  
+  If Dialog.SelectDirectory() Then Return 
+  
+  For Each sfile In Dir(Dialog.Path, "*gbs", gb.File).Sort(gb.Ascent)
+    ComboBox1.Add(sfile, i)
+    i = i + 1
+  Next
+  
+End
+
+Public Sub Panel1_MouseDown()
+  
+End

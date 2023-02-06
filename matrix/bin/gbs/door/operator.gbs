@@ -1,0 +1,13 @@
+#!/usr/bin/env gbs3
+' Gambas Script File Created 01/13/2022 06:50:30.053
+
+'Place Code Here
+Public Sub Main()
+   Dim N As Integer
+   Dim R As Integer
+       N = 5
+       R = 5
+   Dec N
+   Inc R
+Print "===> "; N; " | "; R; "\n"
+End

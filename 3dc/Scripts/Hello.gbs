@@ -1,0 +1,36 @@
+#!/usr/bin/gbs3
+'https://linugambi.blogspot.com/
+
+Dim x, y, z As Integer
+Dim h As String = "H"
+Dim e As String = "e"
+Dim l As String = "l"
+Dim o As String = "o"
+Dim str As String
+
+For z = 1000 DownTo 1
+For y = 1 To 5
+       x = Rnd(1, 5)
+       If x = 1 Then 
+       str = str & "H"
+       Endif
+       If x = 2 Then 
+       str = str & "e"
+       Endif
+       If x = 3 Then
+       str = str & "l"
+       Endif
+       If x = 4 Then 
+       str = str & "o"
+       Endif
+       Print str; 
+Next
+If str = "Hello" Then
+Print
+Print "Great" & " " & str
+Break
+Endif
+Next
+Print
+Print "Try again"
+Print "End"

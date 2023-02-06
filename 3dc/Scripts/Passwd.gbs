@@ -1,0 +1,35 @@
+#!/usr/bin/gbs3
+'https://linugambi.blogspot.com/
+
+Dim b, z, x, y, i As Integer
+Dim Buchstabe As String
+Dim Buchstaben, ja, sOutput As String
+Dim Zeichen As String
+Randomize
+Print "Geben Sie eine Zahl zwischen 1 und 10 ein:"
+Input y
+For x = 0 To y - 1
+b = Rnd(1, 46)
+ Buchstabe = Chr$(Int(Rnd(65, 91))) 
+Buchstaben = Buchstaben & Buchstabe
+z = Rnd(30, 134)
+Zeichen = zeichen & Chr$(z)
+ Print
+ Print b, "|", Buchstabe
+ Print z, "|", Chr$(z);
+Next 
+
+Print
+Print "Ihr neues Passwort: ", Buchstaben
+Print "Passwort drehen: (j,n)"
+Input ja
+If ja = Chr(106) Then
+For i = Len(Buchstaben) DownTo 1
+  sOutput &= Mid(Buchstaben, i, 1)
+Next
+Print "Ihr neues Passwort: ", sOutput
+Else
+Return
+Endif
+
+

@@ -1,0 +1,12 @@
+# A Beginner's Guide to Gambas
+We will cover Gambas components in greater detail later in this book. By default,
+the Gambas Interpreter is a text­only (console­based) program. The component
+architecture is used for the graphical user interface (GUI) part of the language.
+Because the GUI is implemented as a Gambas component, it has the ability to be
+independent of any specific GUI toolkit. With Gambas, you can write a program
+and choose which toolkit, such as GTK+ 6 , Qt 7 , etc., to use later. The current
+release of Gambas implements the graphical user interface with the Qt toolkit.
+The GUI components are derived directly from the QT library. It is recommended
+that the reader also consult with the QT documentation 8 to better understand the
+GUI controls. According to Minisini, a GTK+ component with a nearly identical
+interface as the Qt component is planned.

@@ -1,0 +1,48 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  MoveScaled(0,0,104.2857,75)
+  Icon = Picture["konsole-64.png"]
+  Arrangement = Arrange.Horizontal
+  Padding = 10
+  { Panel3 VBox
+    MoveScaled(5,10,80,51)
+    Expand = True
+    Padding = 5
+    { Panel1 HBox
+      MoveScaled(21,3,24.8571,4)
+      { !ComboBox1 ComboBox
+        MoveScaled(0,0,24,4)
+        #Public = True
+        Expand = True
+      }
+    }
+    { !TextEditor1 TextEditor
+      MoveScaled(29,21,16,16)
+      #Public = True
+      NoTabFocus = True
+      Expand = True
+    }
+    { Panel2 HBox
+      MoveScaled(0,45,77,4)
+      { !TextBox1 TextBox
+        MoveScaled(14,0,24,4)
+        #Public = True
+        NoTabFocus = True
+        Expand = True
+      }
+      { btnSave Button
+        MoveScaled(39,0,5,4)
+        NoTabFocus = True
+        ToolTip = ("Save Text")
+        Picture = Picture["icon:/32/save"]
+      }
+      { btnNew Button
+        MoveScaled(52,0,5,4)
+        NoTabFocus = True
+        ToolTip = ("New Text")
+        Picture = Picture["icon:/32/new"]
+      }
+    }
+  }
+}

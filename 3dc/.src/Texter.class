@@ -1,0 +1,67 @@
+' Gambas class file
+
+Public Sub Form_Open()
+  
+  With Texter
+    .x = Skripter.x + Skripter.Width + 50
+    .y = Skripter.y
+    .Height = 460
+    .Width = 550
+    .Background = &HDFF7FF&
+    .Caption = "Texter"
+  End With
+  
+  TextEditor1.SetFocus
+  TextBox1.Text = ".txt"
+  Panel3.Background = Color.Lighter(&H00FFCF3F&)
+  
+End
+
+Public Sub btnSave_Click()
+  
+  Dim datei As String  
+  Dim sfile As String
+  Dim i As Integer
+  
+  datei = Dialog.Path & "/" & TextBox1.Text
+  File.Save(datei, TextEditor1.Text)
+  
+  ComboBox1.Clear
+  For Each sfile In Dir(Dialog.Path, "*.txt", gb.File).Sort(gb.Ascent)
+    ComboBox1.Add(sfile, i)
+    i = i + 1
+  Next
+  
+Catch
+  If Error Then Message(Error.Text)
+  
+End
+
+Public Sub btnNew_Click()
+  
+  TextEditor1.Clear
+  TextEditor1.Text = "Script_Description\n\n"
+  TextBox1.Clear
+  TextBox1.Text = ".txt"
+  TextBox1.pos = 0
+  
+End
+
+Public Sub Button4_Click()
+  
+  Texter.Close
+  
+End
+
+Public Sub Form_Close()
+  
+  Me.Close
+  
+End
+
+Public Sub ComboBox1_Click()
+  
+  TextEditor1.Clear
+  TextEditor1.Load(Dialog.Path & "/" & ComboBox1.Current.Text)
+  
+End

@@ -1,0 +1,12 @@
+#!/usr/bin/gbs3
+' You need to install fortune and xcowsay
+'https://linugambi.blogspot.com/
+
+Dim i As Integer
+For i = 1 To 10
+Print i & "Please wait"
+Shell "fortune | xcowsay"
+Wait 10
+Next
+Print "End"
+ 

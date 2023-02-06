@@ -1,0 +1,9 @@
+#!/usr/bin/gbs3
+'  https://gambas.one/playground/
+
+Public Sub Main()
+Dim sString As String[] = Split("Hello,How,Are,You,Today")
+
+Print sString.Join(".")
+
+End

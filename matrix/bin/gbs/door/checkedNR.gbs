@@ -1,0 +1,15 @@
+#!/usr/bin/env gbs3
+' Gambas Script File Created 01/13/2022 06:50:30.053
+
+'Place Code Here
+Public Sub Main()
+   Dim N As Integer
+   Dim R As Integer
+   N = 0
+   R = 0
+Print "=> ";N Or R;" is the OR result of ";N;" OR ";R
+   R = 1
+Print "=> ";N Or R;" is the OR result of ";N;" OR ";R
+   N = 1
+Print "=> ";N Or R;" is the OR result of ";N;" OR ";R
+End

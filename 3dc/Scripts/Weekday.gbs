@@ -1,0 +1,21 @@
+#!/usr/bin/gbs3
+' Weekday example from wikibooks
+
+ Print Now
+ Print WeekDay(Now)
+  Select Case WeekDay(Now) 
+   Case 1 
+     Print "Monday" 
+   Case 2 
+     Print "Tuesday"
+   Case 3 
+     Print "Wednesday" 
+   Case 4 
+     Print "Thursday" 
+   Case 5 
+     Print "Friday" 
+   Case 6 
+     Print "Saturday" 
+   Case 7 
+     Print "Sunday" 
+ End Select 

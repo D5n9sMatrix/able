@@ -1,0 +1,56 @@
+# depslib dependency file v1.0
+1642095512 source:/home/denis/GambasProjects/able/matrix/bin/cpi/3dc/main.c
+
+1642096101 source:/home/denis/GambasProjects/able/matrix/bin/cpi/3dc/_dcApp.cpp
+	"wx_pch.h"
+	"_dcApp.h"
+	"_dcMain.h"
+
+1642095859 /home/denis/GambasProjects/able/matrix/bin/cpi/3dc/_dcApp.h
+	<stdio.h>
+
+1642096009 /home/denis/GambasProjects/able/matrix/bin/cpi/3dc/_dcMain.h
+	"_dcApp.h"
+	"GUIDialog.h"
+
+1642095913 /home/denis/GambasProjects/able/matrix/bin/cpi/3dc/GUIDialog.h
+	<wx_pch.h>
+	<stdio.h>
+	<stdlib.h>
+	<string>
+
+1642096161 source:/home/denis/GambasProjects/able/matrix/bin/cpi/3dc/_dcMain.cpp
+	"wx_pch.h"
+	"_dcMain.h"
+
+1642096234 source:/home/denis/GambasProjects/able/matrix/bin/cpi/3dc/GUIDialog.cpp
+	"stdio.h"
+	<stdio.h>
+	"GUIDialog.h"
+
+1642097845 source:/home/denis/GambasProjects/able/matrix/bin/cpi/3dc/mask.cxx
+	<stdio.h>
+	<stdarg.h>
+	<stdlib.h>
+	<string>
+
+1642097891 source:/home/denis/GambasProjects/able/matrix/bin/cpi/3dc/spelldialog.cxx
+	<stdio.h>
+	<stdarg.h>
+	<stdlib.h>
+	<string>
+
+1642098652 source:/home/denis/GambasProjects/able/matrix/bin/cpi/3dc/maskcall.cxx
+
+1642098712 source:/home/denis/GambasProjects/able/matrix/bin/cpi/3dc/_contdlg.cxx
+	<stdio.h>
+	<stdarg.h>
+	<stdlib.h>
+	<string>
+
+1642099118 source:/home/denis/GambasProjects/able/matrix/bin/cpi/3dc/checkdialog.cxx
+	<stdio.h>
+	<stdarg.h>
+	<stdlib.h>
+	<string>
+

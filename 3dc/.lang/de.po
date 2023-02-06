@@ -1,0 +1,79 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SkriptTexter 3.14.3\n"
+"POT-Creation-Date: 2020-11-10 07:49 UTC\n"
+"PO-Revision-Date: 2020-11-10 06:14 UTC\n"
+"Last-Translator: Manfred Heyen <manfred465@gmail.com>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: .project:1
+msgid "SkriptTexter"
+msgstr "SkriptTexter"
+
+#: .project:2
+msgid ""
+"With ScriptTexter you can write and execute Gamba's scripts.\n"
+"Run script with xterm.\n"
+"You can write documentation about your scripts. \n"
+"A spell checker is integrated.\n"
+"You need Aspell from the package sources.\n"
+"Some GambasOne and Own scripts are in the Scripts folder in the project.\n"
+"Create your script folder.\n"
+"Click New script.\n"
+"Have fun scripting with Gambas."
+msgstr ""
+"Mit ScriptTexter können Sie Gambas Skripte schreiben und ausführen.\n"
+"Führen Sie das Skript mit xterm aus.\n"
+"Sie können Dokumentation zu Ihren Skripten schreiben.\n"
+"Eine Rechtschreibprüfung ist integriert.\n"
+"Sie benötigen Aspell aus den Paketquellen.\n"
+"Einige GambasOne- und Own-Skripte befinden sich im Ordner Scripts im Projekt.\n"
+"Erstellen Sie Ihren Skriptordner.\n"
+"Klicken Sie auf Neues Skript.\n"
+"Viel Spaß beim Schreiben von Skripten mit Gambas."
+
+#: Skripter.form:27
+msgid "Spell check"
+msgstr "Rechtschreibprüfung"
+
+# gb-ignore
+#: Skripter.form:31
+msgid "Aspell-de"
+msgstr ""
+
+# gb-ignore
+#: Skripter.form:35
+msgid "Aspell-en"
+msgstr ""
+
+#: Skripter.form:77
+msgid "Show Texter"
+msgstr "Texter anzeigen"
+
+#: Skripter.form:78
+msgid "Texter"
+msgstr "Texter"
+
+#: Skripter.form:90
+msgid "Save"
+msgstr "Speichern"
+
+#: Skripter.form:97
+msgid "New script"
+msgstr "Neues Skript"
+
+#: Skripter.form:104
+msgid "Run script"
+msgstr "Skript ausführen"
+
+#: Texter.form:69
+msgid "Save Text"
+msgstr "Text speichern"
+
+#: Texter.form:76
+msgid "New Text"
+msgstr "Neuer Text"

@@ -1,0 +1,22 @@
+#!/usr/bin/gbs3
+'https://linugambi.blogspot.com/
+
+Dim a As String[]
+Dim x As Integer
+Dim str, sline As String
+a = New String[]
+For x = 0 To 4
+  a.Add(Str(x))
+Next
+a[0] = "https://"
+a[1] = "en."
+a[2] = "wikibooks.org"
+a[3] = "/wiki"
+a[4] = "/Gambas"
+For x = 0 To 4
+sline = a[x]
+  str = str & sline
+Next
+Print str
+Exec ["firefox", str]
+

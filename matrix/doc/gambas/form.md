@@ -1,0 +1,17 @@
+# A Beginner's Guide to Gambas
+
+Forms lists the various forms you create for your project. Forms are the
+windows the user actually interacts with.
+Modules display the modules you've written for your project. Modules are
+simply sets of subroutines and functions to be used anywhere in your program.
+Unlike classes, you can't make objects out of them at runtime and they have no
+event handlers.
+Data lists the other files in your project. These can include any other kind
+of file used to build your project, such as graphic files, icons, bitmaps, text or
+HTML files, and even media files. At the bottom of the Project Explorer you will
+find the Status Bar which is used to indicate what Gambas is currently doing.
+When you start to develop a project in Gambas, you will usually want to
+begin with a main form. The main form is where the program startup and
+initialization will occur and it is usually the first thing your user will see when
+they execute (or run) the application you have built. This is the form you will add
+controls to and specify what actions are to be taken when the user interacts with

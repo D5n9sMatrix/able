@@ -1,0 +1,10 @@
+#!/usr/bin/gbs3
+
+Public Sub Main()
+Dim sTemp As String
+ 
+For Each sTemp In RDir("/etc", "*.d")
+  Print sTemp
+Next
+ 
+End

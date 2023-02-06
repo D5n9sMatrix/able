@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<FileVersion major="1" minor="0" />
+	<ActiveTarget name="Debug" />
+	<File name="dialog.hpp" open="1" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1096" topLine="14" />
+		</Cursor>
+	</File>
+	<File name="maskcall.cxx" open="1" top="0" tabpos="19" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1824" topLine="40" />
+		</Cursor>
+	</File>
+	<File name="elements.hpp" open="1" top="0" tabpos="11" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="293" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="dialog.hdl" open="1" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="main.c" open="1" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="383" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="description_elements.hpp" open="1" top="0" tabpos="13" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="256" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="cookies_known.cxx" open="1" top="0" tabpos="20" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="64841" topLine="1360" />
+		</Cursor>
+	</File>
+	<File name="elements.hdl" open="1" top="0" tabpos="12" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1381" topLine="11" />
+		</Cursor>
+	</File>
+	<File name="description_elements.hdl" open="1" top="0" tabpos="14" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1149" topLine="9" />
+		</Cursor>
+	</File>
+	<File name="_dcApp.h" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="528" topLine="9" />
+		</Cursor>
+	</File>
+	<File name="hotware.cxx" open="1" top="1" tabpos="22" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="974" topLine="12" />
+		</Cursor>
+	</File>
+	<File name="dialog.hxx" open="1" top="0" tabpos="15" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1019" topLine="15" />
+		</Cursor>
+	</File>
+	<File name="dialog2.hpp" open="1" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="95" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="_dcMain.cpp" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1395" topLine="61" />
+		</Cursor>
+	</File>
+	<File name="checkdialog.cxx" open="1" top="0" tabpos="21" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="8277" topLine="203" />
+		</Cursor>
+	</File>
+	<File name="GUIDialog.cpp" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1977" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="GUIDialog.h" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="331" topLine="7" />
+		</Cursor>
+	</File>
+	<File name="spelldialog.cxx" open="1" top="0" tabpos="16" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2809" topLine="70" />
+		</Cursor>
+	</File>
+	<File name="_contdlg.cxx" open="1" top="0" tabpos="18" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="24479" topLine="595" />
+		</Cursor>
+	</File>
+	<File name="_dcMain.h" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="762" topLine="19" />
+		</Cursor>
+	</File>
+	<File name="mask.cxx" open="1" top="0" tabpos="17" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="41092" topLine="1023" />
+		</Cursor>
+	</File>
+	<File name="_dcApp.cpp" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="643" topLine="18" />
+		</Cursor>
+	</File>
+	<EditorTabsLayout layout="8fde713061e062e600ab4e7900000002=0;3dc:_dcApp.cpp,1;3dc:_dcMain.cpp,2;3dc:GUIDialog.cpp,3;3dc:_dcApp.h,4;3dc:_dcMain.h,5;3dc:GUIDialog.h,6;3dc:main.c,7;3dc:dialog.hpp,8;3dc:dialog.hdl,9;3dc:dialog2.hpp,10;3dc:elements.hpp,11;3dc:elements.hdl,12;3dc:description_elements.hpp,13;3dc:description_elements.hdl,14;3dc:dialog.hxx,15;3dc:spelldialog.cxx,16;3dc:mask.cxx,17;3dc:_contdlg.cxx,18;3dc:maskcall.cxx,19;3dc:cookies_known.cxx,20;3dc:checkdialog.cxx,*21;3dc:hotware.cxx@layout2|name=dummy;caption=;state=2098174;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=551;besth=133;minw=551;minh=133;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=8fde713061e062e600ab4e7900000002;caption=;state=2098172;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=200;besth=200;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(5,0,0)=202|" />
+</CodeBlocks_layout_file>

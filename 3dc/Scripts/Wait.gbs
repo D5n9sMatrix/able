@@ -1,0 +1,12 @@
+#!/usr/bin/gbs3
+'https://linugambi.blogspot.com/
+
+Dim i As Integer
+
+For i = 1 To 10
+Wait 1
+Print i
+Next
+Print
+Print "Why did you wait ?"
+ 

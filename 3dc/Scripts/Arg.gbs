@@ -1,0 +1,7 @@
+#!/usr/bin/gbs3
+' Example gambaswiki.org
+
+ Dim arg As String 
+  arg = Args[0] ' Get the first commandline parameter
+  Print arg
+  Print Env["USER"] ' case sensitive!

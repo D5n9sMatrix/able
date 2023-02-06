@@ -1,0 +1,41 @@
+#!/usr/bin/gbs3
+'https://linugambi.blogspot.com/
+
+Dim ar As Integer[]
+Dim x, r, z, element As Integer
+Dim txt As String
+
+ar = New Integer[]
+For x = 0 To 48
+ar.Add(Str(0))
+Next
+
+txt = ""
+For x = 0 To 48
+ar[x] = 0
+Next
+
+Randomize
+For x = 0 To 5
+r = Int(Rnd(1, 49))
+If r = ar[r] Then 
+x = x - 1
+Endif
+ar[r] = r
+Next
+
+For Each element In ar
+If element <> 0 Then txt = txt & element & Chr(10)
+Next
+
+Repeat
+z = Int(Rnd(1, 49))
+Until z <> ar[z]
+txt = txt & Chr(10) & "Additional number: " & z
+Print "Lottery numbers: "
+Print txt
+Print
+
+
+
+

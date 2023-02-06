@@ -1,0 +1,7 @@
+#!/usr/bin/gbs3
+'  Example from wikibooks
+
+Dim i As Integer
+For i = 1 To 10
+  Print i, i * i, i * i * i
+Next

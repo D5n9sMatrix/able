@@ -1,0 +1,6 @@
+#!/usr/bin/gbs3
+' Example gambaswiki.org
+ 
+  For Each Key As String In Application.Env
+  Print Key & "=" & Application.Env[Key]
+Next

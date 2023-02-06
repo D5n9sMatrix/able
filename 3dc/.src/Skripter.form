@@ -1,0 +1,79 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  MoveScaled(0,0,104,77)
+  Icon = Picture["konsole-64.png"]
+  Arrangement = Arrange.Horizontal
+  Padding = 10
+  { Menu1 Menu
+    Text = ("Spell check")
+    Visible = False
+    { Menu2 Menu
+      Text = ("Aspell-de")
+    }
+    { Menu3 Menu
+      Text = ("Aspell-en")
+    }
+  }
+  { Panel1 VBox
+    MoveScaled(4,5,85,62)
+    Expand = True
+    Padding = 5
+    { Panel5 HBox
+      MoveScaled(2,3,79,4)
+      { ComboBox1 ComboBox
+        MoveScaled(7,0,26,4)
+        NoTabFocus = True
+        Expand = True
+      }
+      { btnDir Button
+        MoveScaled(43,0,6,4)
+        NoTabFocus = True
+        Picture = Picture["icon:/32/open"]
+      }
+    }
+    { TextEditor1 TextEditor
+      MoveScaled(8,22,16,16)
+      NoTabFocus = True
+      Expand = True
+      Mode = "Gambas"
+      ShowPosition = True
+      ShowLineNumber = True
+    }
+    { Panel4 HBox
+      MoveScaled(1,49,81,4)
+      { btnTexter Button
+        MoveScaled(1,0,8,4)
+        NoTabFocus = True
+        ToolTip = ("Show Texter")
+        Text = ("Texter")
+      }
+      { TextBox1 TextBox
+        MoveScaled(11,0,35,4)
+        NoTabFocus = True
+        Expand = True
+      }
+      { btnSave Button
+        MoveScaled(44,0,5,4)
+        NoTabFocus = True
+        ToolTip = ("Save")
+        Picture = Picture["icon:/32/save"]
+      }
+      { btnNew Button
+        MoveScaled(50,0,4,4)
+        NoTabFocus = True
+        ToolTip = ("New script")
+        Picture = Picture["icon:/32/new"]
+      }
+      { btnRun Button
+        MoveScaled(54,0,5,4)
+        NoTabFocus = True
+        ToolTip = ("Run script")
+        Picture = Picture["icon:/32/play"]
+      }
+      { ComboBox3 ComboBox
+        MoveScaled(66,0,12,4)
+      }
+    }
+  }
+}

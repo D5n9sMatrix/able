@@ -1,0 +1,25 @@
+# A Beginner's Guide to Gambas
+✔ A compiler <br/>
+✔ An interpreter <br/>
+✔ An archiver <br/>
+✔ A graphical user interface component <br/>
+✔ A development environment <br/>
+
+> Figure 1 below 4 is an illustration of the overall architecture of Gambas. In
+Gambas, a project contains class files, forms, modules, and data files. A Gambas
+project is stored in a single directory. Compiling a project uses in incremental
+compile method that only requires recompilation of the modified classes. Every
+external reference of a class is solved dynamically at runtime. The Gambas
+archiver transforms the entire project directory structure into a standalone
+executable. The Gambas development environment was written with Gambas to
+demonstrate the fantastic capabilities of the language.
+Figure 1­ General overview of Gambas architecture.
+Some other features that set Gambas apart from other languages include
+the fact that Gambas has an extensible component architecture that allows
+programmers to extend the language. Anyone can write components as shared
+libraries that dynamically add new native classes to the interpreter. The
+component architecture is documented online in the Gambas Wiki encyclopedia 5 .
+4
+5
+See URL http://gambas.sourceforge.net/architecture.html, for the original graphic.
+Copyright (c) 1999-2005 by contributing authors. All material on the Gambas Wiki is the property of the contributing

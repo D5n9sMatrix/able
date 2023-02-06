@@ -1,0 +1,12 @@
+#!/usr/bin/gbs3
+'https://linugambi.blogspot.com/
+
+Print "String: &" 
+Print "This is a sentence" 
+Print "that has been supplemented with a subordinate clause."
+ Print "This is a sentence" & " that has been supplemented with a subordinate clause.\n" ' String
+ Print "Math: +"
+ Print 3
+ Print 5
+ Print 3 + 5 ' Math
+ 

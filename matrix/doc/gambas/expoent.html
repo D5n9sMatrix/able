@@ -1,0 +1,51 @@
+<h1>A Beginner's Guide to Gambas</h1>
+<p>In order to raise a number to a given power (exponent), use the format of
+Number ^ Power and Gambas raises Number to the power the Power operator
+specified. Try this:
+<br/></p>
+<p><code>
+ <code style="white-space:nowrap;"><b>STATIC PUBLIC SUB</b></code> Main() <br>
+ <strong>        DIM <code style="white-space:nowrap;"><FONT COLOR=#0000FF>N</font></code> AS <code style="white-space:nowrap;"><FONT COLOR=#e69900>Integer</font></code><br/></strong>
+ <strong>        DIM <code style="white-space:nowrap;"><FONT COLOR=#0000FF>R</font></code> AS <code style="white-space:nowrap;"><FONT COLOR=#e69900>Integer</font></code><br/></strong>
+ <strong>        <code style="white-space:nowrap;"><FONT COLOR=#0000FF>N</font></code> = <code style="white-space:nowrap;"><FONT COLOR=#FF0000>2</font></code><br/></strong>
+ <strong>        <code style="white-space:nowrap;"><FONT COLOR=#0000FF>R</font></code> = <code style="white-space:nowrap;"><FONT COLOR=#FF0000>3</font></code><br/></strong>
+<strong> PRINT "===&gt; "; <code style="white-space:nowrap;"><FONT COLOR=#0000FF>N</font></code> ^ <code style="white-space:nowrap;"><FONT COLOR=#0000FF>R</font></code>;<br/></strong>
+<strong> END<br/></strong>
+<code/>
+<br/>
+The console will respond with the following:
+<br/>
+<blockquote>
+==&gt; 8
+</blockquote>
+<br/>
+Gambas also has the ability to support logical arithmetic operations 12 .
+Using the format of Number AND Number instructs Gambas to use the AND
+operator to compute the mathematical AND of the binary values of both of the
+numbers. Try this:
+<br/></p>
+<p><code>
+<code style="white-space:nowrap;"><b>STATIC PUBLIC SUB</b></code> Main()<br/>
+<strong>      DIM <code style="white-space:nowrap;"><FONT COLOR=#0000FF>N</font></code> AS <code style="white-space:nowrap;"><FONT COLOR=#e69900>Integer</font></code><br/></strong>
+<strong>      DIM <code style="white-space:nowrap;"><FONT COLOR=#0000FF>R</font></code> AS <code style="white-space:nowrap;"><FONT COLOR=#e69900>Integer</font></code><br/></strong>
+<strong>      <code style="white-space:nowrap;"><FONT COLOR=#0000FF>N</font></code> = <code style="white-space:nowrap;"><FONT COLOR=#FF0000>0</font></code><br/></strong>
+<strong>     <code style="white-space:nowrap;"><FONT COLOR=#0000FF>R</font></code> = <code style="white-space:nowrap;"><FONT COLOR=#FF0000>0</font></code><br/></strong>
+<strong> PRINT "=&gt; ";  <code style="white-space:nowrap;"><FONT COLOR=#0000FF>N</font></code> AND <code style="white-space:nowrap;"><FONT COLOR=#0000FF>R</font></code>; " is the AND result of ";  <code style="white-space:nowrap;"><FONT COLOR=#0000FF>N</font></code>; " and "; <code style="white-space:nowrap;"><FONT COLOR=#0000FF>R</font></code><br/></strong>
+<strong>     <code style="white-space:nowrap;"><FONT COLOR=#0000FF>R</font></code> = <code style="white-space:nowrap;"><FONT COLOR=#FF0000>1</font></code><br/></strong>
+<strong> PRINT "=&gt; ";  <code style="white-space:nowrap;"><FONT COLOR=#0000FF>N</font></code> AND  <code style="white-space:nowrap;"><FONT COLOR=#0000FF>R</font></code>; " is the AND result of ";  <code style="white-space:nowrap;"><FONT COLOR=#0000FF>N</font></code>; " and "; <code style="white-space:nowrap;"><FONT COLOR=#0000FF>R</font></code><br/></strong>
+<strong>    <code style="white-space:nowrap;"><FONT COLOR=#0000FF>N</font></code> = <code style="white-space:nowrap;"><FONT COLOR=#FF0000>1</font></code><br/></strong>
+<strong> PRINT "=&gt; "; <code style="white-space:nowrap;"><FONT COLOR=#0000FF>N</font></code>  AND  <code style="white-space:nowrap;"><FONT COLOR=#0000FF>R</font></code>; " is the AND result of ";  <code style="white-space:nowrap;"><FONT COLOR=#0000FF>N</font></code>; " and "; <code style="white-space:nowrap;"><FONT COLOR=#0000FF>R</font></code><br/></strong>
+<br/>
+<strong> END<br/></strong>
+<code/>
+<br/>
+The console window responds with:<br/>
+<br/>
+=&gt; 0 is the AND result of 0 and 0<br/>
+=&gt; 0 is the AND result of 0 and 1<br/>
+=&gt; 1 is the AND result of 1 and 1<br/>
+<br/>
+Likewise, Number OR Number used the OR operator and computes the
+mathematical OR of the binary value of the two numbers.
+12 In Gambas2, it will allow the use of concatenated operators. For example, a += 2 or B /= 4 will work just as if you were
+programming in C or C++.</p>

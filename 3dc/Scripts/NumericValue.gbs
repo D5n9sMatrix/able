@@ -1,0 +1,13 @@
+#!/usr/bin/gbs3
+'https://linugambi.blogspot.com/
+
+   Dim i As Integer 
+   
+     For i = 1 To 5
+       Print 1 + i
+       Print 1 - i
+       Print 1 * i
+       Print 1 / i
+       Print
+         Next
+     Print

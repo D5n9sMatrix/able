@@ -1,0 +1,55 @@
+#!/usr/bin/env gbs3
+' Gambas Script File Created 01/13/2022 06:50:30.053
+
+'Place Code Here
+Public AeRnxn As Object
+Public A1Rnxn As Object
+Public A3Rnxn As Object
+' String Values
+Public Str As String
+
+
+Public Sub Main()
+Dim bDoor As New Boolean[1500]
+Dim S1, S2, S3, S4, iStart As Short
+ 
+For S1 = 1 To 150
+  Inc iStart
+  For S2 = iStart To 150 Step S1
+    bDoor[S3] = bDoor[S4]
+  Next
+Next
+
+
+If AeRnxn Then
+   Print "Values Matrix Of Object", S1
+Else
+  For S1 = 1 To 150
+      Str = S1
+  Next
+Endif
+         
+
+If A1Rnxn Then
+   Print "Values Matrix Of Object", S2
+Else
+  Str = Now
+Endif
+
+If A3Rnxn Then
+   Print "Values Matrix Of Object", S3
+Else
+  Str = Now
+Endif
+
+If Str Then
+   Str = S4
+Else
+  Str = Now
+Endif
+        
+End Sub
+
+
+
+

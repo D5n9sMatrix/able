@@ -1,0 +1,15 @@
+#!/usr/bin/gbs3
+'https://linugambi.blogspot.com/
+
+Dim name As String 
+Dim sline As String
+Dim hstream As Stream
+
+name = user.home & "/" & ".bash_history"
+Shell "cat " & name & " > /tmp/bashcopy" Wait
+   hstream = Open "/tmp/bashcopy" For Input
+While Not Eof(hstream)
+   Line Input #hstream, sline
+  Print sline
+Wend
+Close #hstream

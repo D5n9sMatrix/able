@@ -1,0 +1,16 @@
+#!/usr/bin/gbs3
+'https://linugambi.blogspot.com/
+
+Public Sub Main()
+Dim i, j As Integer
+ 
+For j = 1 To 4
+For i = 1 To 28
+  Print "*"; Space(1 * (i + 1));
+Next 
+Next
+Print "Starry sky"
+End
+
+
+ 

@@ -1,0 +1,27 @@
+# Gambas Project File 3.0
+Title=SkriptTexter
+Startup=Skripter
+Icon=konsole-64.png
+Version=1.0.35
+Component=gb.image
+Component=gb.gui
+Component=gb.form
+Component=gb.desktop
+Component=gb.eval
+Component=gb.eval.highlight
+Component=gb.form.dialog
+Component=gb.util
+Component=gb.form.editor
+Description="Gambas scripting.\nOutput with konsole or xterm.\nYou can write documentation about your scripts with Texter. \nSome GambasOne and Own scripts are in the Scripts folder in the project."
+Authors="Manfred Heyen"
+Environment="GB_NO_JIT=1"
+TabSize=2
+Translate=1
+Language=en_US
+CreateShortcut=1
+SourcePath=/home/manfredh465/linugambi/Archive
+Vendor=linugambi
+Packager=1
+Tags=Education,TextEditor,Development
+WebSite=https://linugambi.blogspot.com/
+CreateMenu=1

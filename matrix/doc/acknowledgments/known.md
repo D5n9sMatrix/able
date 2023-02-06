@@ -1,0 +1,37 @@
+# Acknowledgments
+First of all, a very special thanks to Benoît Minisini for the creation of Gambas
+and for his support of this effort to further document this wonderful language. Without
+Benoît's initiative, we would all be struggling to find a better tool than what exists today
+on Linux platforms. Much of the initial documentation of the Gambas language was put
+on the Gambas Wiki by Benoît and he deserves special credit for making this information
+available. As it was the only known published source of definitive documentation in
+existence prior to this writing, much of the reference material herein was gleaned from
+that initial set of documentation. As with any written material, there is no guarantee
+that this documentation is as accurate as what you may find in the latest release of the
+Gambas product.
+The author would like to extend a special thanks to Fabien Bodard for his help in
+making this work become a reality. Fabien tirelessly edited code, reviewed the sample
+projects presented herein, and provided great insight into the inner workings of Gambas
+– all at the time of harvest for his vineyard. Laurent Carlier and Steve Starr both also
+deserve my gratitude for their meticulous work editing the code and ensuring everything
+worked as advertised. Their feedback, suggestions and corrections were greatly
+appreciated. I would also like to thank Daniel Campos Fernández who was a great
+asset in helping me to understand some of the finer points of Gambas. Nigel Gerrard
+also contributed to the success of this project by providing a final review and edit of the
+database material. From among these Gambas Hall of Fame coders, who else could have
+done it better?
+Countless emails were received from many members of the Gambas community,
+all of which provided ongoing encouragement and support which motivated me to
+complete this effort and make it available to everyone. Given the difficulties of writing a
+book in the first place, it was a great feeling of satisfaction to receive such support from
+complete strangers who all share the single vision of making Gambas a success. I can
+only hope that this book will do justice to that effort and welcome any suggestions for
+change, as well as any compliments or constructive criticism. It has been a lot of fun to
+learn this wonderful new language and to explore the possibilities it offers. I dedicate
+this book to all of those Gambas users and developers who have relied on each other in
+the Gambas user/developer community to make this product become reality. Shared
+vision, common goals, and open software are powerful forces that should not ever be
+underestimated. Such forces have been known to change the world and will continue to
+do so long after this book has been read and forgotten.
+John W. Rittinghouse, Ph.D., CISM
+October, 2005
